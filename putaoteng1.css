@@ -12,7 +12,7 @@ body{
 }
 .logokuang{
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 .logo{
     width: 10em;
@@ -20,6 +20,7 @@ body{
 .wenben{
     width:80%;          /*盒子总宽度*/
     height: 80px;       /*定义总高度*/
+    padding: 15px;
     margin: 0 auto;     /*盒子文本框居中*/
     text-align: center; /*文本居中*/
 }
