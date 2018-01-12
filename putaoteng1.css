@@ -17,20 +17,26 @@ body{
 .logo{
     width: 10em;
 }
+.wenben{
+    width:80%;          /*盒子总宽度*/
+    height: 80px;       /*定义总高度*/
+    margin: 0 auto;     /*盒子文本框居中*/
+    text-align: center; /*文本居中*/
+}
 .word{
-    margin: 12vw auto;
-    width:80%;
+    text-align: left;   /*文本左对齐*/
+    display: inline-block;/*宽度根据文字的宽度伸缩*/
     color:#fff;
 }
 .zuotu{
     width: 4rem;
     float: left;
-    margin-left: 15vw;
-    margin-top: 8vw;
+    margin-left: 40px;
+    margin-top: 80px;
 }
 .youtu{
     width: 4rem;
     float: right;
-    margin-right: 15vw;
-    margin-top: 8vw;
+    margin-right: 40px;
+    margin-top: 80px;
 }
